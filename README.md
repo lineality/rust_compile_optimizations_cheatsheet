@@ -1,6 +1,6 @@
 # rust_compile_optimizations_cheatsheet
 
-#### To be put in the cargo.toml file...
+
 
 ## To build: Performance
 ```bash
@@ -8,6 +8,7 @@ cargo build --profile release-performance
 ```
 
 # example optmizing for runtime speed using the binary:
+#### To be put in the cargo.toml file...
 ```toml
 [profile.release-performance]
 inherits = "release"
@@ -39,6 +40,7 @@ cargo build --profile release-small
 ```
 
 Optimized Small Binary Profile for Rust
+#### To be put in the cargo.toml file...
 ```toml
 [profile.release-small]
 inherits = "release"
