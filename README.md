@@ -1,6 +1,6 @@
 # rust_compile_optimizations_cheatsheet
 
-
+Note: you can put both/all build options in the cargo.toml, then use either build line.
 
 ## To build: Performance
 ```bash
