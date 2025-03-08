@@ -35,7 +35,7 @@ overflow-checks = false
 opt-level = 3
 codegen-units = 1
 debug = 1
-lto = "fat"
+# LTO cannot be specified in package profile
 ```
 
 
