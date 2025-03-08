@@ -64,6 +64,7 @@ opt-level = "z"
 debug = false
 # Disable rpath to save some bytes
 rpath = false
+
 # Apply the same size optimizations to all dependencies
 [profile.release-small.package."*"]
 opt-level = "z"
