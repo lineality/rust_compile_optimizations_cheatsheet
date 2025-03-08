@@ -39,7 +39,7 @@ opt-level = 3
 cargo build --profile release-small 
 ```
 
-Optimized Small Binary Profile for Rust
+# Optimized Small Binary Profile for Rust
 #### To be put in the cargo.toml file...
 ```toml
 [profile.release-small]
