@@ -7,7 +7,7 @@
 cargo build --profile release-performance
 ```
 
-# example optmizing for runtime speed using the binary:
+# example optimizing for runtime speed using the binary:
 #### To be put in the cargo.toml file...
 ```toml
 [profile.release-performance]
