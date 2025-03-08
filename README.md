@@ -10,6 +10,7 @@ cargo build --profile release-performance
 # example optimizing for runtime speed using the binary:
 #### To be put in the cargo.toml file...
 ```toml
+# build with -> cargo build --profile release-performance
 [profile.release-performance]
 inherits = "release"
 # Maximum Link Time Optimization for best performance
@@ -46,6 +47,7 @@ cargo build --profile release-small
 # Optimized Small Binary Profile for Rust
 #### To be put in the cargo.toml file...
 ```toml
+# build with -> cargo build --profile release-small
 [profile.release-small]
 inherits = "release"
 # Enable Link Time Optimization for size reduction
